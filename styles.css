@@ -1,5 +1,5 @@
 body{
-	background-color:lightgoldenrodyellow;
+	background-color:rgb(240, 152, 251);
 	font-family:arial,sans-serif;
 }
 .container{
@@ -7,7 +7,8 @@ body{
 	margin:auto;
 	margin-top:50px;
 	padding:20px;
-	background-color:ghostwhite;
+	background-color:rgb(180, 219, 243)
+;
 	border:1px solid #ccc;
 	/* border-raius: 8px;  */
 }
@@ -29,9 +30,10 @@ input[type="text"], select{
 }
 
 input[type="submit"]{
+	color:white;
 	display:block;
 	margin:auto;
-	background-color: lightblue;
+	background-color: rgb(128, 0, 0);
 	padding:10px 75px;
 	border:none;
 	border-radius:50px;
@@ -39,6 +41,6 @@ input[type="submit"]{
 	text-align:center;
 }
 input[type="submit"]:hover{
-	background-color:lightgreen;
+	background-color:green;
 }
 
